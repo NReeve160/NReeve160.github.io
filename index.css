@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: green;
+    border-radius: 25px;
+    padding: 25px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: block;
+    grid-template-columns: 2;
+    width: auto;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+#assignments {
+    grid-column: 1;
+}
+
+#profile {
+    max-width: 20%;
+    grid-column: 3;
+    float: left;
+    margin-top: -18em;
+    margin-left: 33em;
+    border-radius: 25px;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: green;
+    border-radius: 25px;
+    padding: 25px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
