@@ -1,3 +1,113 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+img {
+    border-radius: 25pt;
+}
+
+h2 {
     text-align: center;
+}
+
+h1 {
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: green;
+    color: silver;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.content {
+    display: block;
+}
+
+#profile {
+    max-width: 100%;
+    border-radius: 25px;
+    margin-top: 0px;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: green;
+    color: silver;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+@media (min-width: 810px) {
+    .content {
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 2;
+        column-gap: 5px;
+    }
+
+    .hicks {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .fitts {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .negative {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    
+    footer {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 1080px) {
+    .content {
+        max-width: auto;
+        margin-right: 10%;
+        margin-left: -10%;
+    }
+
+    .hicks {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    .fitts {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    .negative {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
 }
