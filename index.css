@@ -38,6 +38,10 @@ footer {
     padding: 25px;
 }
 
+footer a:visited {
+    color: aqua;
+}
+
 @media (min-width: 32.5em) {
     body {
         font-family: 'Open Sans', sans-serif;
