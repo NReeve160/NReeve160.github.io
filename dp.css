@@ -42,6 +42,10 @@ footer a:visited {
     color: aqua;
 }
 
+footer a {
+    color: aqua;
+}
+
 @media (min-width: 50.625em) {
     .content {
         display: grid;
