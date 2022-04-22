@@ -49,8 +49,6 @@ footer a {
 @media (min-width: 50.625em) {
     .content {
         display: grid;
-        grid-template-columns: 3;
-        grid-template-rows: 2;
         column-gap: 5px;
     }
 

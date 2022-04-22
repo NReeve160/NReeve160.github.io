@@ -59,7 +59,6 @@ footer a:visited {
 
     .content {
         display: block;
-        grid-template-columns: 2;
         width: auto;
         margin-left: 30%;
         margin-right: auto;
