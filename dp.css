@@ -39,11 +39,7 @@ footer {
 }
 
 footer a:visited {
-    color: aqua;
-}
-
-footer a {
-    color: aqua;
+    color: whitesmoke;
 }
 
 @media (min-width: 50.625em) {
