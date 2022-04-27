@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1 {
+    color: #F01B42;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #66D998;
+    color: #081F4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #FBF7F4;
+}
+
+div {
+    background-color: #F2B705;
+}
