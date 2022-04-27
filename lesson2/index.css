@@ -4,12 +4,14 @@
 h1 {
     color: #F01B42;
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
 
 body {
     background-color: #66D998;
     color: #081F4E;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 h2 {
