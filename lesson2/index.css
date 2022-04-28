@@ -37,7 +37,8 @@ footer {
 }
 
 a:visited {
-    color: whitesmoke;
+    color: pink;
+    text-size-adjust: large;
 }
 
 #logo
