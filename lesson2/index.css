@@ -36,9 +36,12 @@ footer {
     padding: 25px;
 }
 
+ul a {
+    font-size: x-large;
+}
+
 a:visited {
     color: hotpink;
-    text-size-adjust: large;
 }
 
 #logo
