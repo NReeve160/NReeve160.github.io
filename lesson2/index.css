@@ -3,7 +3,7 @@
 
 h1 {
     color: #F01B42;
-    background-color: #F2B705;
+    background-color: #081F4E;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     border-radius: 25px;
@@ -37,7 +37,7 @@ footer {
 }
 
 footer a:visited {
-    color: whitesmoke;
+    color: #081F4E;
 }
 
 #logo
