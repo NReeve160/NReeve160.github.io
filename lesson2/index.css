@@ -29,7 +29,7 @@ div {
 
 footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
+    font-size: large;
     text-align: center;
     background-color:#081F4E;
     color: #FBF7F4;
@@ -42,7 +42,7 @@ ul a {
 }
 
 a:visited {
-    color: hotpink;
+    color: #FBF7F4;
 }
 
 #logo
