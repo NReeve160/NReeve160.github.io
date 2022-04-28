@@ -42,6 +42,7 @@ footer a:visited {
     color: whitesmoke;
 }
 
+
 @media (min-width: 50.625em) {
     .content {
         display: grid;

@@ -3,8 +3,14 @@
 
 h1 {
     color: #F01B42;
+    background-color: #F2B705;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 0px;
+    width: auto;
 }
 
 body {
@@ -20,4 +26,36 @@ h2 {
 
 div {
     background-color: #F2B705;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color:#F2B705;
+    color: #FBF7F4;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+footer a:visited {
+    color: whitesmoke;
+}
+
+#logo
+{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 50.625em) {    
+    footer {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 67.5em) {
+
 }
