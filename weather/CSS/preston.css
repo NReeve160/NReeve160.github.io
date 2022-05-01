@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Small/Phone View ***************/
+body {
+  background-color: #66D998;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #081F4E;
+  font-family: 'Press Start 2P', cursive;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  align-items: center;
+}
+
+.logo {
+	max-width: 100%;
+}
+
+#name {
+	grid-column: 2;
+}
+
+#catch {
+	grid-column: 2;
+	margin-top: -1em;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #F01B42;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: flex;
+	justify-content: center;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover {
+  color: #FBF7F4;
+  background-color: #081F4E;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: flex;
+	justify-content: center;
+}
+
+main {
+  text-align: center;
+}
+
+#city {
+  font-size: x-large;
+}
+
+#hero {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+	padding: 1em;
+}
+
+.forecast {
+	background-color: #081F4E;
+	color: #FBF7F4;
+	border-radius: 25px;
+	padding: 1em;
+	padding-top: 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #081F4E;
+  color: #FBF7F4;
+  border-radius: 25px;
+  padding-bottom: 1em;
+}
+
+.contact {
+	padding: 1em;
+}
+
+#map {
+  max-width: 80%;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+#filler {
+	max-width: 100%;
+}
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	header {
+		margin: 3em;
+		justify-content: center;
+		margin-top: -2em;
+		margin-bottom: -9em;
+	}
+
+	.logo {
+		margin-left: -2em;
+	}
+
+	#catch {
+		margin-top: -20em;
+	}
+
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	header {
+		margin: 1em;
+		margin-bottom: -5em;
+		margin-left: -25em;
+	}
+
+	.logo {
+		max-width: 30%;
+		margin-left: 12em;
+	}
+
+	#name {
+		margin-top: -4em;
+		margin-left: -12em;
+	}
+
+	#catch {
+		float: left;
+		margin-top: -12em;
+		margin-left: -15em;
+		font-size: x-large;
+	}
+
+	nav {
+		max-width: 100%;
+		padding-left: 25em;
+		padding-right: 25em;
+	}
+
+	main {
+		margin-right: 25em;
+		margin-left: 25em;
+	}
+
+	footer{
+		display: grid;
+		padding-top: 1em;
+	}
+
+	#map {
+		grid-column: 1;
+		grid-row: 1;
+		max-width: 20%;
+	}
+
+	.contact {
+		grid-column: 2;
+		grid-row: 1;
+		margin-left: -50em;
+	}
+}
