@@ -82,7 +82,6 @@ footer a:visited {
 
 @media (min-width: 67.5em) {
     .content {
-        max-width: auto;
         margin-right: 10%;
         margin-left: -10%;
     }
