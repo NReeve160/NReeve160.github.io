@@ -1,0 +1,32 @@
+/* Media Query for medium+ views */
+header {
+	margin: 3em;
+	justify-content: center;
+	margin-top: -2em;
+	margin-bottom: -9em;
+}
+
+.logo {
+	margin-left: -2em;
+}
+
+#catch {
+	margin-top: -20em;
+}
+
+.navigation {
+	display: flex;
+}
+
+.navigation li {
+	display: block; /* change state in small view */
+	flex: 1 1 auto;
+}
+
+.navigation a {
+	text-align: center;
+}
+
+.navigation li:first-child {
+	display: none;
+}
