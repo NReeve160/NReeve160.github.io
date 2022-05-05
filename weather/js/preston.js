@@ -13,3 +13,16 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
   classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
   */
+
+var d = new Date();
+var n = d.getDay();
+
+const announcment = document.getElementById("#announcment");
+const now = new Date();
+
+// Show banner if today is Friday
+if (now.getDay() === 5) {
+  announcment.style.display = grid;
+} else {
+  announcment.style.display = none;
+}

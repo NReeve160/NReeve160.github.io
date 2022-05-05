@@ -30,6 +30,18 @@ header {
 	margin-top: -1em;
 }
 
+.announcment {
+	background-color: #081F4E;
+	text-align: center;
+	padding: 1em;
+	border-radius: 25px;
+	font-size: small;
+}
+
+#announcment h1 {
+	color: #66D998;
+}
+
 nav {
 	margin: 0 auto;
 	max-width: 760px;
@@ -101,6 +113,11 @@ footer {
   color: #FBF7F4;
   border-radius: 25px;
   padding-bottom: 1em;
+  font-size: x-large;
+}
+
+footer a {
+	color: #FBF7F4;
 }
 
 .contact {
