@@ -32,19 +32,17 @@ main {
 	margin-left: 25em;
 }
 
-footer{
+footer {
 	display: grid;
 	padding-top: 1em;
 }
 
-#map {
+#contact {
 	grid-column: 1;
 	grid-row: 1;
-	max-width: 20%;
 }
 
-.contact {
+#map {
 	grid-column: 2;
 	grid-row: 1;
-	margin-left: -50em;
 }

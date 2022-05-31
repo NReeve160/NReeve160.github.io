@@ -15,14 +15,6 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
   */
 
 var d = new Date();
-var n = d.getDay();
-
-const announcment = document.getElementById("#announcment");
-const now = new Date();
-
-// Show banner if today is Friday
-if (now.getDay() === 5) {
-  announcment.style.display = grid;
-} else {
-  announcment.style.display = none;
-}
+var day = d.getDay();
+var a = document.getElementsByClassName('.announcment');
+window.onload = () => {if (s == 5) a.style.display = 'block'};

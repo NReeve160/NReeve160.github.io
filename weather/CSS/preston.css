@@ -31,15 +31,18 @@ header {
 }
 
 .announcment {
+	display: none;
 	background-color: #081F4E;
-	text-align: center;
 	padding: 1em;
 	border-radius: 25px;
+	font-family: 'Press Start 2P', cursive;
 	font-size: small;
+	text-align: center;
+	color: #66D998;
 }
 
-#announcment h1 {
-	color: #66D998;
+#active a {
+	background-color: #FBF7F4;
 }
 
 nav {
@@ -47,17 +50,21 @@ nav {
 	max-width: 760px;
 	background-color: #F01B42;
 }
+
 .navigation {
 	list-style: none;
 	padding: 0;
 }
+
 .navigation li:first-child {
 	display: flex;
 	justify-content: center;
 }
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
 	display: block;
 	padding: 0.75rem;
@@ -105,6 +112,11 @@ main {
 	border-radius: 25px;
 	padding: 1em;
 	padding-top: 1em;
+}
+
+.days {
+	display: flex;
+	justify-content: center;
 }
 
 footer {
