@@ -106,6 +106,49 @@ main {
 	padding: 1em;
 }
 
+.overlap {
+	text-align: left;
+	margin-bottom: 1em;
+	color: #081F4E;
+}
+
+.weather {
+	background-color: #66D998;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 1em;
+	border-radius: 25%;
+	opacity: 80%;
+	box-shadow: 0px 5px 10px 5px #081F4E;
+}
+
+.weather p {
+	opacity: 100%;
+	font-weight: bold;
+}
+
+.weather h2 {
+	font-family: 'Press Start 2p', cursive;
+	font-size: large;
+	opacity: 100%;
+	text-align: center;
+}
+
+.weather ul {
+	list-style: none;
+}
+
+#wind {
+	display: none;
+}
+
+.color {
+	color: #F01B42;
+	font-weight: bolder;
+}
+
 .forecast {
 	background-color: #081F4E;
 	color: #FBF7F4;
