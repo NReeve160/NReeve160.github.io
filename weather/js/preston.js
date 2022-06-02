@@ -16,5 +16,12 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
 var d = new Date();
 var day = d.getDay();
-var a = document.getElementsByClassName('.announcment');
-window.onload = () => {if (s == 5) a.style.display = 'block'};
+
+const announcment = document.getElementById('announcment');
+console.log(announcment);
+
+if (day == 5) {
+  announcment.style.display = 'grid';
+} else {
+  announcment.style.display = 'none';
+}
