@@ -38,15 +38,20 @@
         <div class="content">
             <h1 id="city">Preston Idaho</h1>
             <div class="overlap">
-                <img srcset="images/wdd230_image_franklinOriginal.jpeg" id="hero" alt="Zircion pic">
+
+                <picture>
+                    <source media="(min-width:60em)" srcset="images/wdd230_image_franklinOriginal.jpeg">
+                    <source media="(min-width:32.5em)" srcset="images/wdd230_image_franklinOriginal.jpeg">
+                    <img src="images/wdd230_image_franklinOriginal.jpeg" id="hero" alt="Franklin Img">
+                </picture>
 
                 <div class="weather">
-                    <u><h2>Weather Summary</h2></u>
+                    <h2><u>Weather Summary</u></h2>
                     <ul>
                         <li>
                             <p>Currently: <span class="color">
                                 <span id="temp">38</span>
-                                <span>&#176;F</span></p>
+                                <span>&#176;F</span>
                             <p><span class="color">Broken Clouds</span></p>
                         </li>
                         <li>
