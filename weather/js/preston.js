@@ -25,3 +25,19 @@ if (day == 5) {
 } else {
   announcment.style.display = 'none';
 }
+
+let width = screen.width;
+
+const size = document.getElementById('size').innerHTML;
+
+if (width < 520) {
+  size = document.getElementById('size').innerHTML = 'Small';
+} 
+
+if (width < 960) {
+  size = document.getElementById('size').innerHTML = 'Medium';
+} 
+
+else {
+  size = document.getElementById('size').innerHTML = 'Large';
+}

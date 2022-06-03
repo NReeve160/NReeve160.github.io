@@ -112,6 +112,14 @@ main {
 	color: #081F4E;
 }
 
+#size {
+	color: yellow;
+	float: left;
+	position: absolute;
+	top: 36%;
+	left: 80%
+}
+
 .weather {
 	background-color: #66D998;
 	padding-top: 10px;

@@ -36,6 +36,11 @@ header {
 	text-align: left;
 }
 
+#size {
+	top: -20%;
+	left: 210%
+}
+
 .weather {
 	position: absolute;
 	top: 45%;
