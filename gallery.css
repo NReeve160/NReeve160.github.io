@@ -1,0 +1,51 @@
+body img{
+    width: 100%;
+    height: auto;
+}
+
+.gallery img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+@media (min-width: 32.5em) {
+    #cloudy {
+        
+    }
+
+    #darkCloudy {
+
+    }
+
+    #dramatic {
+
+    }
+
+    #hurricane {
+
+    }
+
+    #lightning {
+
+    }
+
+    #rainbow {
+
+    }
+
+    #raining {
+
+    }
+
+    #sunny {
+
+    }
+
+    #sunset {
+
+    }
+}
+
+@media (min-width: 60em) {
+
+}
