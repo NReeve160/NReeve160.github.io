@@ -6,6 +6,7 @@ img {
     width: 100%;
     height: auto;
     filter: blur(.09em);
+    transform: 2s blur(0em);
 }
 
 @media (min-width: 32.5em) {
