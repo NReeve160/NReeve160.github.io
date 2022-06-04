@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Small/Phone View ***************/
+body {
+  background-color: #66D998;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #081F4E;
+  font-family: 'Press Start 2P', cursive;
+}
+
+header {
+  display: grid;
+  align-items: center;
+}
+
+.logo {
+	max-width: 100%;
+}
+
+#name {
+	grid-column: 2;
+}
+
+#catch {
+	grid-column: 2;
+	margin-top: -1em;
+}
+
+.announcment {
+	display: none;
+	background-color: #081F4E;
+	padding: 1em;
+	border-radius: 25px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: small;
+	text-align: center;
+	color: #66D998;
+}
+
+#active a {
+	background-color: #FBF7F4;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #F01B42;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: flex;
+	justify-content: center;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover {
+  color: #FBF7F4;
+  background-color: #081F4E;
+}
+
+/* the onclick JS toggles the .reponsive class from display none 
+(.navigation li) to display block because the responsive class is 
+added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+#hero {
+	width: 100%;
+	border-radius: 25px;
+}
+
+.weather {
+	background-color: #081F4E;
+	color: #FBF7F4;
+	border-radius: 25px;
+	text-align: center;
+	padding: 5px;
+}
+
+.weather ul {
+	padding-right: 10%;
+}
+
+.weather ul {
+	list-style: none;
+}
+
+.forecast {
+	text-align: center;
+}
+
+.icons {
+	padding-right: 5%;
+}
+
+.icons img {
+	padding-left: 5%;
+}
+
+.days {
+	display: inline-flex;
+	width: 100%;
+}
+
+.days p {
+	padding-left: 3%;
+}
+
+.towns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.towns article {
+    max-width: 320px;
+    margin: auto;
+	padding: 5px;
+	background-color: #081F4E;
+	color: #FBF7F4;
+	border-radius: 25px;
+}
+
+.towns article img {
+    max-width: 100%;
+	border-radius: 25px;
+}
+
+.main-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #081F4E;
+  color: #FBF7F4;
+  border-radius: 25px;
+  padding-bottom: 1em;
+  font-size: x-large;
+}
+
+footer a {
+	color: #FBF7F4;
+}
+
+.contact {
+	padding: 1em;
+}
+
+#map {
+  max-width: 80%;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+#filler {
+	max-width: 100%;
+}

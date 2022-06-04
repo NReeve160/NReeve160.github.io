@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Nathan Reeve</title>
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<meta name="description" content="Gallery Assignment for Nathan Reeve WDD 230 at Brigham Young University - Idaho">
+<link rel="stylesheet" href="../normalize.css">
+<link rel="stylesheet" href="css/homePage.css">
+<link rel="stylesheet" media="screen and (min-width: 32.5em)" href="CSS/medium.css">
+<link rel="stylesheet" media="screen and (min-width: 60em)" href="CSS/large.css">
+</head>
+
+<body>
+<header>
+    <img src="../images/pokeweather-logo.png" class="logo" alt="Poke Weather Logo">
+    <h1 id="name">Poke Weather</h1>
+    <p id="catch">Know When To Catch 'em All</p>
+</header>
+
+<div id="announcment">
+    <h2>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2>
+</div>
+
+<nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#">Menu</a></li>
+        <li><span id="active"><a href="homePage.html">Home</a></span></li>
+        <li><span id=""><a href="preston.html">Preston</a></span></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+    </ul>
+</nav>
+
+<div class="overlap">
+
+    <picture>
+        <source media="(min-width:60em)" src="../weather/images/wdd230_image_franklinOriginal.jpeg">
+        <source media="(min-width:32.5em)" srcset="../weather/images/wdd230_image_franklinOriginal.jpeg">
+        <img src="../weather/images/hero.jpg" id="hero" alt="Franklin Img">
+    </picture>
+
+    <div class="weather">
+        <h2><u>Weather Summary</u></h2>
+        <ul>
+
+            <li>
+                <p>Currently:
+                    <span class="color">
+                        <span id="temp">38</span>
+                        <span>&#176;F</span>
+                        <span class="color">Broken Clouds</span>
+                    </span>
+                </p>
+            </li>
+
+            <li>
+                <p>Wind Chill:
+                    <span id="wind">5</span>
+                    <span class="color">
+                        <span id="windChill"></span><span>&#176;F</span>
+                    </span>
+                </p>
+            </li>
+
+            <li>
+                <p>High: <span class="color">41<span>&#176;</span>F</span></p>
+            </li>
+
+            <li>
+                <p>Humidity: <span class="color">50%</span></p>
+            </li>
+
+            <li>
+                <p>Wind Speed: <span class="color">5 mph</span></p>
+            </li>
+
+            <img src="icons/2682848_day_forecast_sun_sunny_weather_icon.png">
+         </ul>
+    </div>
+</div>
+
+<div class="forecast">
+    <h2>Five Day ForeCast</h2>
+    <div class="icons">
+        <img src="icons/2682849_cloud_cloudy_day_forecast_sun_icon.png" alt="cloudy weather" id="sunny">
+        <img src="icons/2682849_cloud_cloudy_day_forecast_sun_icon.png" alt="cloudy weather" id="sunny">
+        <img src="icons/2682849_cloud_cloudy_day_forecast_sun_icon.png" alt="cloudy weather" id="sunny">
+        <img src="icons/2682849_cloud_cloudy_day_forecast_sun_icon.png" alt="cloudy weather" id="sunny">
+        <img src="icons/2682849_cloud_cloudy_day_forecast_sun_icon.png" alt="cloudy weather" id="sunny">
+    </div>
+    <div class="days">
+        <p>Monday</p>
+        <p>Tuesday</p>
+        <p>Wednesday</p>
+        <p>Thursday</p>
+        <p>Friday</p>
+    </div>
+</div>
+
+<div class="articles">
+    <div class="towns"></div>
+</div>
+
+<br>
+
+<footer>
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: profoak@kanto.com</p>
+        <p>Phone: (765)966-6461</p>
+    </div>
+    <br>
+    <img src="../weather/images/preston.JPG" id="map" alt="google map of preston Idaho">
+    <br>
+    <div class="wireframes">
+        <p><a href="wireframe.html">Wireframes</a></p>
+    </div>
+    <br>
+    <p>&copy; <span id="currentYear"></span> | Nathan Reeve | <a href="https://www.byui.edu/online">BYUI Online
+            Learning</a></p>
+    <p>Last Updated: <span id="updatedDate"></span></p>
+</footer>
+<script src="../script.js"></script>
+<script src="../weather/js/preston.js"></script>
+<script src="js/home.js"></script>
+</body>
+
+</html>
